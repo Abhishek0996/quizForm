@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Review</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>General Knowledge Quiz</h1>
+        <div class="quiz-box">
+            <div id="questionBox"></div>
+            <form>
+                <label><input type="radio" name="answer" value="a"> <span></span></label><br>
+                <label><input type="radio" name="answer" value="b"> <span></span></label><br>
+                <label><input type="radio" name="answer" value="c"> <span></span></label><br>
+                <label><input type="radio" name="answer" value="d"> <span></span></label>
+            </form>
+            <button id="next" disabled>Next</button>
+            <button id="submit" style="display:none;">Submit</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
